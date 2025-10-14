@@ -14,6 +14,11 @@
 # limitations under the License.
 #
 
+DEVICE_PATH := device/meizu/m2note
+
+# For building with minimal manifest
+ALLOW_MISSING_DEPENDENCIES := true
+
 # Architecture
 
 TARGET_BOARD_PLATFORM := mt6753
